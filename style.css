@@ -1,0 +1,32 @@
+body{
+background: url(https://i.imgur.com/rPs4kwS.jpg) !important;
+background-repeat: no-repeat !important; /* Do not repeat the image */
+background-size: cover !important; 
+}
+.jumbotron
+{
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, rgb(184, 38, 38)), color-stop(0.3, rgb(129, 87, 8)), color-stop(0.45, rgb(168, 99, 52)), color-stop(0.6, rgb(255, 251, 34)),color-stop(0.75, rgba(255, 220, 64, 0.795)), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, rgb(255, 122, 34)), color-stop(0.3, rgb(255, 240, 34)), color-stop(0.45, rgb(255, 97, 34)), color-stop(0.6, rgb(255, 78, 34)),color-stop(0.75, rgb(211, 200, 52)), color-stop(0.9, rgb(233, 105, 20)), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: transparent !important;
+
+}
+
+h5{
+    font-family: 'Patua One', cursive;
+}
+li{
+    font-family: 'Patua One', cursive;
+    font-size: 1.2em;
+ 
+}
+.list-group{
+  
+}
+
+font-family: 'Permanent Marker', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Luckiest Guy', cursive;

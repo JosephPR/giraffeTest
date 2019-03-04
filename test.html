@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS --><link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Patua+One|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" href="fas fa-dragon"/>
+    
+    <title>
+        giraffe Test
+    </title>
+  </head>
+  <body>
+        <div class="jumbotron  text-center">
+                <h1 class="display-4">Giraffe Test</h1>
+                <p class="lead"> Test your knowledge of the world's tallest mammal!</p>
+  
+              </div>
+
+        <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <h5>1. How many Giraffe's are there left in existence?</h5>
+                      <form>
+                            
+                            <input type="button" class="btn btn-info" onclick="myfunction('WRONG!!,Giraffe are listed as Vulnerable to extinction on the IUCN Red List of Threatened Species. Giraffe numbers in Africa have plummeted by a staggering 40% over the last 30 years. We estimate today that there are fewer than 100,000 giraffe remaining in all of Africa.')" value="100k+"> 
+                            <input type="button" class="btn btn-info" onclick="myfunction('CORRECT! Giraffe are listed as Vulnerable to extinction on the IUCN Red List of Threatened Species. Giraffe numbers in Africa have plummeted by a staggering 40% over the last 30 years. We estimate today that there are fewer than 100,000 giraffe remaining in all of Africa.')" value="under 100k"> 
+                          </form> 
+                          <p id="demo"></p>
+                </div>
+                 
+                  <div class="col"> 
+                        <h5>4. Giraffe's get 6 hours of rest a day.</h5>
+                        <form>
+                              
+                              <input type="button" class="btn btn-info" onclick="sleep('WRONG!!,Giraffes sleep less than two hours a day. In general, they sleep with their feet tucked under them and their head resting on their hindquarters, but they can also sleep for short periods of time standing up.')" value="TRUE"> 
+                              <input type="button" class="btn btn-info" onclick="sleep('CORRECT! Giraffes sleep less than two hours a day. In general, they sleep with their feet tucked under them and their head resting on their hindquarters, but they can also sleep for short periods of time standing up.')" value="FALSE"> 
+                            </form> 
+                            <p id="sleep"></p>
+
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="col">
+                        <h5>2. Do giraffe's have two hearts?</h5>
+                        <form>
+                              
+                              <input type="button" class="btn btn-info" onclick="heart('WRONG!!, Giraffes have only one heart. However, the giraffe does have a very powerful heart, which helps to pump blood throughout the animals long neck and legs. A giraffes heart weighs roughly 25 pounds and measures approximately 2 feet long.')" value="2 Hearts"> 
+                              <input type="button" class="btn btn-info" onclick="heart('CORRECT!  Giraffes have only one heart. However, the giraffe does have a very powerful heart, which helps to pump blood throughout the animals long neck and legs. A giraffes heart weighs roughly 25 pounds and measures approximately 2 feet long.')" value="1 Heart"> 
+                            </form> 
+                            <p id="heart"></p>
+                  </div>
+                  <div class="col">
+                        <h5>5. What is a group of giraffe's called?</h5>
+                      <form>
+                            
+                            <input type="button" class="btn btn-info" onclick="tower('WRONG!!, A group of giraffes is aptly called a tower, according to the U.S. Geological Survey. Towers typically have 10 to 20 members. Who lives in the tower can vary. Some towers consist of all females and their young, or all male or mixed genders. ')" value="Scattle"> 
+                            <input type="button" class="btn btn-info" onclick="tower('CORRECT!  A group of giraffes is aptly called a tower, according to the U.S. Geological Survey. Towers typically have 10 to 20 members. Who lives in the tower can vary. Some towers consist of all females and their young, or all male or mixed genders. ')" value="Tower"> 
+                          </form> 
+                          <p id="tower"></p>
+                  </div>
+              
+                <div class="w-100"></div>
+                <div class="col">
+                        <h5>3. Do giraffe's all weigh about the same?</h5>
+                        <form>
+                              
+                              <input type="button" class="btn btn-info" onclick="weight('WRONG!!,The male giraffe is both taller and heavier than the female(by about 1200 pounds!). Both sexes have skin-covered knobs, called ossicones, on the top of their heads. Female ossicones are smaller and have a small tuft of fur on top, while male ossicones are bald on the top. These knobs are used to protect the head when males fight, which involves swinging their necks at each other in a show of strength called “necking.”')" value="YES"> 
+                              <input type="button" class="btn btn-info" onclick="weight('CORRECT! The male giraffe is both taller and heavier than the female(by about 1200 pounds!). Both sexes have skin-covered knobs, called ossicones, on the top of their heads. Female ossicones are smaller and have a small tuft of fur on top, while male ossicones are bald on the top. These knobs are used to protect the head when males fight, which involves swinging their necks at each other in a show of strength called “necking.”')" value="NO"> 
+                            </form> 
+                            <p id="weight"></p>
+                        </div>
+                        <div class="col">
+                                <h5>6. Giraffe's sometimes eat meat.</h5>
+                                <form>
+                                      
+                                      <input type="button" class="btn btn-info" onclick="herb('WRONG!!,Giraffes are herbivores, which means they eat only plants. Their long necks allow them to reach leaves, seeds, fruits, buds and branches high up in mimosa and acacia trees. They can eat hundreds of pounds of leaves per week, according to National Geographic.')" value="True"> 
+                                      <input type="button" class="btn btn-info" onclick="herb('CORRECT! Giraffes are herbivores, which means they eat only plants. Their long necks allow them to reach leaves, seeds, fruits, buds and branches high up in mimosa and acacia trees. They can eat hundreds of pounds of leaves per week, according to National Geographic.')" value="False"> 
+                                    </form> 
+                                    <p id="herb"></p>
+                        </div>
+                        <hr>
+                        
+                        <div class="container">
+                                <!-- <img src="https://i.imgur.com/IFTCV.jpg" alt=""> -->
+                                <div class="container">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Giraffes are the tallest mammals on Earth. </li>
+                                        <li class="list-group-item">They can run as fast as 35 miles an hour over short distances</li>
+                                        <li class="list-group-item">Giraffes only need to drink once every few days</li>
+                                        <li class="list-group-item">The giraffe calf can stand up and walk after about an hour and within a week</li>
+                                        <li class="list-group-item">Giraffes only need 5 to 30 minutes of sleep in a 24-hour period! </li>
+                                      </ul>
+                                </div>
+                              
+                              </div>
+             <hr>
+             
+              </div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    
+<script>
+        function myfunction(txt) { 
+          document.getElementById("demo").innerHTML = txt
+        } 
+        function heart(txt) { 
+          document.getElementById("heart").innerHTML = txt
+        } 
+        function weight(txt) { 
+          document.getElementById("weight").innerHTML = txt
+        } 
+        function sleep(txt) { 
+          document.getElementById("sleep").innerHTML = txt
+        } 
+        function tower(txt) { 
+          document.getElementById("tower").innerHTML = txt
+        } 
+        function herb(txt) { 
+          document.getElementById("herb").innerHTML = txt
+        } 
+        </script>
+        
+  </body>
+</html>
